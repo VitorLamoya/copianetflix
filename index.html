@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
+</head>
+<body>
+    <div class="topo-menu-img">
+        <div class="topo-menu">
+            <div class="netflix">
+                <div class="netflix-logo">
+                    <img src="images/netflix-logo.png" width="90%">
+                </div>
+            </div>
+            <div class="menu-topo">
+                <select>
+                    <option value="pt-BR">Português</option>
+                    <option value="en-BR">English</option>
+                </select>
+                <button>Entrar</button>
+            </div>
+        </div>
+        <div class="itens-topo-menu">
+            <div class="container-topo-menu">
+                <h1>Filmes, séries e muito mais, sem limites</h1>
+                <h2>Assista onde quiser. Cancele quando quiser.</h2>
+                <h2>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h2>
+                <input type="text" placeholder="Email">
+                <button>Vamos lá ></button>
+            </div>
+        </div>
+    </div>
+    <div class="aprov-tv">
+        <div class="assin-plan">
+            <div class="container-assin-plan">
+                <div class="container-assin-plan-img"><img src="images/img-pipoca.png" width="60%"></div>
+                <div class="container-assin-plan-txt">
+                    <h2>A Netflix que você adora por apenas R$18,90.</h2>
+                    <p>Assine o plano Padrão com anúncios.</p>
+                    <p class="blue"><span class="blue">Saiba mais</span>&nbsp;&nbsp;&nbsp;&nbsp;></p>
+                </div>
+            </div>
+        </div>
+        <div class="container-aprov-tv">
+            <div class="container-aprov-tv-txt">
+                <h2>Aproveite na TV</h2>
+                <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.</p>
+            </div>
+            <div class="container-aprov-tv-img">
+                <img src="images/img-tv.png" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="assist-ond">
+        <div class="container-assist-ond">
+            <div class="container-assist-ond-img">
+                <img src="images/img-monitor-cel.png" width="100%">
+            </div>
+            <div class="container-assist-ond-txt">
+                <h2>Assista onde quiser</h2>
+                <p>Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.</p>
+            </div>
+        </div>
+    </div>
+    <div class="crie-perf">
+        <div class="container-crie-perf">
+            <div class="container-crie-perf-txt">
+                <h2>Crie perfis para crianças.</h2>
+                <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para
+                    elas, sem pagar a mais por isso.
+                </p>
+            </div>
+            <div class="container-crie-perf-img">
+                <img src="images/img-kids.png" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="baix-serie">
+        <div class="container-baix-serie">
+            <div class="container-baix-serie-img">
+                <img src="images/img-stranger-thigs2.png" width="100%" height="90%">
+            </div>
+            <div class="container-baix-serie-txt">
+                <h2>Baixe séries para assistir<br>offline</h2>
+                <p>Assista em um avião, trem ou submarino...</p>
+            </div>
+        </div>
+    </div>
+    <div class="perg-freq">
+        <div class="container-perg-freq">
+            <h2>Perguntas frequentes</h2>
+            <button onclick="expandbuttonOqueenetflix()">O que é a Netflix?</button>
+            <div id="oqueenetflix">
+                <div class="container-buttons">
+                    <h2>A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e documentários 
+                        premiados em milhares de aparelhos conectados à internet.
+                    </h2>
+                    <h2 style="padding-top: 0;">
+                        Você pode assistir a quantos filmes e séries quiser, quando e onde quiser – tudo por um preço mensal acessível. 
+                        Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.
+                    </h2>
+                </div>
+            </div>
+            <button onclick="expandbuttonQuantocusta()">Quanto custa a Netflix?</button>
+            <div id="quantocusta">
+                <div class="container-buttons">
+                    <h2>Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. 
+                        Os planos variam de R$18,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+                    </h2>
+                </div>
+            </div>
+            <button onclick="expandbuttonOndeassistir()">Onde posso assistir?</button>
+            <div id="ondeassistir">
+                <div class="container-buttons">
+                    <h2>Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para começar a assistir no 
+                        computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, 
+                        tablets, aparelhos de streaming e videogames.
+                    </h2>
+                    <h2 style="padding-top: 0;">Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para 
+                        levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você para qualquer lugar.
+                    </h2>
+                </div>
+            </div>
+            <button onclick="expandbuttonComocancelar()">Como faço para cancelar?</button>
+            <div id="comocancelar">
+                <div class="container-buttons">
+                    <h2>A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. 
+                        Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.
+                    </h2>
+                </div>
+            </div>
+            <button onclick="expandbuttonOqueassistir()">O que eu posso assistir na Netflix?</button>
+            <div id="oqueassistir">
+                <div class="container-buttons">
+                    <h2>A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto 
+                        quiser, quando quiser.
+                    </h2>
+                </div>
+            </div>
+            <button onclick="expandbuttonParacriancas()">A Netflix é adequada para crianças?</button>
+            <div id="paracriancas">
+                <div class="container-buttons">
+                    <h2>A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e 
+                        filmes familiares sob a supervisão dos responsáveis.
+                    </h2>
+                    <h2 style="padding-top: 0;">O recurso de controle parental, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do 
+                        conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer que elas assistam.
+                    </h2>
+                </div>
+            </div>
+            <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+            <input type="text" placeholder="Email">
+            <button class="vam-la">Vamos lá ></button>
+        </div>
+    </div>
+    <footer>
+        <div class="container-footer">
+            <div class="container-footer-item">
+                <h2>Dúvidas? Ligue <span>0800 591 2876</span></h2>
+                <p><span>Perguntas frequentes</span></p>
+                <p><span>Relações com investidores</span></p>
+                <p><span>Formas de assistir</span></p>
+                <p><span>Informações corporativas</span></p>
+                <p><span>Só na Netflix</span></p>
+                <select>
+                    <option value="pt-BR">Português</option>
+                    <option value="en-BR">English</option>
+                </select>
+                <p>Netflix Brasil</p>
+            </div>
+            <div class="container-footer-item" style="margin-top: 15px;">
+                <p><span>Central de Ajuda</span></p>
+                <p><span>Carreiras</span></p>
+                <p><span>Termos de Uso</span></p>
+                <p><span>Entre em contato</span></p>
+            </div>
+            <div class="container-footer-item" style="margin-top: 15px;">
+                <p><span>Conta</span></p>
+                <p><span>Resgatar cartão pré-pago</span></p>
+                <p><span>Privacidade</span></p>
+                <p><span>Teste de velocidade</span></p>
+            </div>
+            <div class="container-footer-item" style="margin-top: 15px;">
+                <p><span>Media Center</span></p>
+                <p><span>Comprar cartão pré-pago</span></p>
+                <p><span>Preferências de cookies</span></p>
+                <p><span>Avisos legais</span></p>
+            </div>
+        </div>
+    </footer>
+<script>
+    function expandbuttonOqueenetflix(){
+        var oqueenetflix=document.getElementById("oqueenetflix");
+    
+    if(oqueenetflix.style.display === "none"){
+        oqueenetflix.style.display="inline";
+        quantocusta.style.display="none";
+        ondeassistir.style.display="none";
+        comocancelar.style.display="none";
+        oqueassistir.style.display="none";
+        paracriancas.style.display="none";
+    }
+    else{
+        oqueenetflix.style.display = "none";
+    }
+    }
+    function expandbuttonQuantocusta(){
+        var quantocusta=document.getElementById("quantocusta");
+    
+    if(quantocusta.style.display === "none"){
+        quantocusta.style.display="inline";
+        oqueenetflix.style.display="none";
+        ondeassistir.style.display="none";
+        comocancelar.style.display="none";
+        oqueassistir.style.display="none";
+        paracriancas.style.display="none";
+    }
+    else{
+        quantocusta.style.display = "none";
+    }
+    }
+    function expandbuttonOndeassistir(){
+        var ondeassistir=document.getElementById("ondeassistir");
+    
+    if(ondeassistir.style.display === "none"){
+        ondeassistir.style.display="inline";
+        quantocusta.style.display="none";
+        oqueenetflix.style.display="none";
+        comocancelar.style.display="none";
+        oqueassistir.style.display="none";
+        paracriancas.style.display="none";
+    }
+    else{
+        ondeassistir.style.display = "none";
+    }
+    }
+    function expandbuttonComocancelar(){
+        var comocancelar=document.getElementById("comocancelar");
+    
+    if(comocancelar.style.display === "none"){
+        comocancelar.style.display="inline";
+        ondeassistir.style.display="none";
+        quantocusta.style.display="none";
+        oqueenetflix.style.display="none";
+        oqueassistir.style.display="none";
+        paracriancas.style.display="none";
+    }
+    else{
+        comocancelar.style.display = "none";
+    }
+    }
+    function expandbuttonOqueassistir(){
+        var oqueassistir=document.getElementById("oqueassistir");
+    
+    if(oqueassistir.style.display === "none"){
+        oqueassistir.style.display="inline";
+        comocancelar.style.display="none";
+        ondeassistir.style.display="none";
+        quantocusta.style.display="none";
+        oqueenetflix.style.display="none";
+        paracriancas.style.display="none";
+    }
+    else{
+        oqueassistir.style.display = "none";
+    }
+    }
+    function expandbuttonParacriancas(){
+        var paracriancas=document.getElementById("paracriancas");
+    
+    if(paracriancas.style.display === "none"){
+        paracriancas.style.display="inline";
+        oqueassistir.style.display="none";
+        comocancelar.style.display="none";
+        ondeassistir.style.display="none";
+        quantocusta.style.display="none";
+        oqueenetflix.style.display="none";
+    }
+    else{
+        paracriancas.style.display="none";
+    }
+    }
+</script>
+</body>
+</html>

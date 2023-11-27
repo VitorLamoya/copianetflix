@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'MetropolisRegular';
+}
+.topo-menu-img {
+    width: 100%;
+    height: 95dvh;
+    background-image: url("../images/img-principal.jpg");
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+.topo-menu {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color: #000000c6;
+}
+.netflix {
+    width: 60%;
+    display: block;
+    padding-top: 10px;
+    padding-left: 12%;
+    color: #E50914;
+}
+.netflix-logo {
+    width: 200px;
+    height: 100%;
+}
+.menu-topo {
+    margin-top: 25px;
+}
+.menu-topo select {
+    width: 140px;
+    height: 30px;
+    color: rgb(245, 242, 242);
+    font-family: 'MetropolisBold';
+    border-radius: 4px;
+    background-color: rgba(24, 24, 24, 0.419);
+}
+.menu-topo button {
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+    color: rgb(245, 242, 242);
+    font-family: 'MetropolisBold';
+    border: none;
+    border-radius: 4px;
+    background-color: #E50914;
+}
+.menu-topo button:hover {cursor:pointer;background-color: #C11119;}
+.itens-topo-menu {
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(#000000c6, #00000078);
+}
+.container-topo-menu {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 220px;
+    text-align: center;
+    text-shadow: 0 1px 1px ;
+}
+.container-topo-menu h1 {
+    font-family: 'MetropolisExtraBold';
+    font-size: 48px;
+    color: white;
+}
+.container-topo-menu h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #FDF3E3;
+}
+.container-topo-menu input[type="text"] {
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid #565555;
+    border-radius: 4px;
+    background-color: #1b1b1bac;
+}
+.container-topo-menu input::placeholder {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #BAB8B7;
+}
+.container-topo-menu button {
+    width: 160px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid #E50914;
+    border-radius: 4px;
+    background-color: #E50914;
+}
+.container-topo-menu button:hover {cursor:pointer;background-color: #C11119;}
+.assin-plan {
+    width: 90%;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: -70px;
+    margin-left: 5%;
+    display:flex;
+    position: absolute;
+    background-image: url("../images/linear-gradient.png");
+    background-size: 100%;
+}
+.container-assin-plan {
+    width: 50%;
+    height: 100%;
+    margin:0 auto;
+    display:flex;
+}
+.container-assin-plan-img {
+    width: 25%;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
+.container-assin-plan-txt {
+    width: 75%;
+    padding-top: 25px;
+    color: white;
+}
+.container-assin-plan-txt h2 {font-size: 20px;}
+.container-assin-plan-txt p {
+    margin-top: 12px;
+}
+.container-assin-plan-txt span {
+    color: #4784EF;
+    border-bottom: 1px solid #4784EF;;
+}
+.blue {
+    cursor:pointer;
+    color: #4784EF;
+}
+.aprov-tv,.assist-ond,.crie-perf,.baix-serie{
+    width: 100%;
+    height: 540px;
+    border-bottom: 10px solid #232323;
+    background-color: black;
+}
+.container-aprov-tv,.container-assist-ond {
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+}
+.container-aprov-tv-txt {
+    width: 50%;
+    padding-top: 200px;
+    padding-left: 40px;
+}
+.container-aprov-tv-txt h2,.container-assist-ond h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+}
+.container-aprov-tv-txt p,.container-assist-ond p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #FDF3E3;
+}
+.container-aprov-tv-img,.container-assist-ond-img {
+    width: 50%;
+    display:flex;
+}
+.container-assist-ond-txt {
+    width: 50%;
+    padding-top: 160px;
+    padding-left: 30px;
+}
+.container-crie-perf,.container-baix-serie {
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+}
+.container-crie-perf-txt,.container-baix-serie-txt {
+    width: 50%;
+    padding-top: 200px;
+    padding-left: 40px;
+}
+.container-crie-perf-txt h2,.container-baix-serie-txt h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: white;
+}
+.container-crie-perf-txt p,.container-baix-serie-txt p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #FDF3E3;
+}
+.container-baix-serie-img {
+    width: 50%;
+    display:flex;
+}
+.perg-freq {
+    width: 100%;
+    height: 100%;
+    border-bottom: 10px solid #232323;
+    background-color: black;
+}
+.container-perg-freq {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+}
+.container-perg-freq h2 {
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+.container-perg-freq button {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 3px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: #2D2D2D;
+}
+.container-perg-freq button:hover {background-color: #414141;}
+#oqueenetflix,#quantocusta,#ondeassistir,#comocancelar,#oqueassistir,#paracriancas {
+    width: 100%;
+    height: 200px;
+    display: none;
+    background-color: #2D2D2D;
+}
+.container-buttons {
+    margin-top: 2px;
+    background-color: #2D2D2D;
+}
+.container-buttons h2 {
+    font-size: 22px;
+    padding: 30px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+}
+.container-perg-freq input[type="text"] {
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid #565555;
+    border-radius: 4px;
+    background-color: #1b1b1bac;
+}
+.container-perg-freq input::placeholder {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #BAB8B7;
+}
+.container-perg-freq .vam-la {
+    width: 220px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    padding: 0;
+    text-align: center;
+    color: rgb(245, 242, 242);
+    font-family: 'MetropolisBold';
+    border: none;
+    border-radius: 4px;
+    background-color: #E50914;
+}
+.container-perg-freq .vam-la:hover {background-color: #C11119;}
+.container-perg-freq h3 {
+    margin-top: 50px;
+    font-weight: normal;
+    color: white;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.container-footer {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+}
+.container-footer-item {
+    width: 20%;
+    height: 100%;
+    margin-inline: 30px;
+}
+.container-footer-item h2 {font-size: 15px;color: #B1AFAD;}
+.container-footer-item p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #B1AFAD;
+}
+.container-footer-item span {
+    cursor: pointer;
+    border-bottom: 1px solid #B1AFAD;
+}
+.container-footer-item select {
+    width: 140px;
+    height: 30px;
+    margin-top: 25px;
+    color: rgb(245, 242, 242);
+    font-family: 'MetropolisBold';
+    border-radius: 4px;
+    background-color: rgba(24, 24, 24, 0.419);
+}
+
+@media screen and (max-width: 768px) {
+    .itens-topo-menu {width: 100%;}
+    .topo-menu-img {
+        width: 100%;
+        height: 100dvh;
+        background-size: 300%;
+    }
+    .netflix {width: 40%;padding-left: 0;}
+    .netflix-logo {width: 120px;}
+    .menu-topo {margin-top: 16px;font-size: 12px;}
+    .menu-topo select {width: 70px;}
+    .menu-topo button {width: 70px;}
+    .container-topo-menu {
+        width: 100%;
+        padding: 0;
+        padding-top: 60px;
+    }
+    .container-topo-menu h1 {font-size: 32px;}
+    .container-topo-menu h2 {font-size: 16px;}
+    .container-topo-menu input[type="text"] {
+        width: 80%;
+    }
+    .container-topo-menu button {
+        width: 40%;
+        height: 45px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .assin-plan {width:80%;margin: 0 auto;position:static;}
+    .container-assin-plan {width: 100%;}
+    .container-assin-plan-txt {width:90%;margin:0 auto;}
+    .container-assin-plan-txt h2 {font-size: 18px;}
+    .container-assin-plan-txt p {font-size: 14px;}
+    .container-assin-plan-img {display: none;}
+    .aprov-tv {height: 100%;}
+    .container-aprov-tv {display: inline-block;padding-left: 35px;}
+    .container-aprov-tv-txt {width: 100%;padding-top: 30px;padding-left: 0;}
+    .container-aprov-tv-txt h2 {font-size: 32px;}
+    .container-aprov-tv-img {width: 100%;}
+    .assis-ond {height: 100%;}
+    .container-assist-ond {display: inline-block;padding-left: 35px;}
+    .container-assist-ond-txt {width: 100%;padding-top: 30px;padding-left: 0;}
+    .container-assist-ond-txt h2 {font-size: 32px;}
+    .container-assist-ond-img {width: 100%;}
+    .crie-perf {height: 100%;}
+    .container-crie-perf {display: inline-block;padding-left: 35px;}
+    .container-crie-perf-txt {width: 100%;padding-top: 30px;padding-left: 0;}
+    .container-crie-perf-txt h2 {font-size: 32px;}
+    .container-crie-perf-img {width: 100%;}
+    .container-baix-serie {display: inline-block;padding-left: 35px;}
+    .container-baix-serie-txt {width: 100%;padding-top: 30px;padding-left: 0;}
+    .container-baix-serie-txt h2 {font-size: 32px;}
+    .container-baix-serie-img {width: 100%;}
+    .container-perg-freq h2 {font-size: 28px;}
+    .container-perg-freq button{font-size: 15px;}
+    .container-perg-freq input[type="text"] {width: 90%;}
+    .container-perg-freq .vam-la {width: 120px;margin-top:15px;margin-left:0;font-size: 16px;}
+    .container-buttons h2{font-size: 14px;}
+}
